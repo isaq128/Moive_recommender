@@ -25,3 +25,10 @@ Clone this repository and open it in VS Code:
 git clone https://github.com/isaq128/Moive_recommender.git
 cd Moive_recommender
 code .
+
+Then install dependencies (inside your virtual environment):
+pip install -r requirements.txt
+
+Train the vectorizer and save data:
+python train_movie_recommender.py
+
